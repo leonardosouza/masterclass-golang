@@ -26,6 +26,10 @@ func (a *ServidorAPI) lerConfig() error {
 	a.databaseURL = os.Getenv("DATABASEURL")
 	a.porta = os.Getenv("SERVICEPORT")
 
+	// define um timeout padrao para a conexao com o banco de dados
+	// evitando que um valor zero cancele o contexto imediatamente
+	a.timeout = 10 * time.Second
+
 	if len(a.porta) == 0 {
 		a.porta = ":8080"
 	} else if a.porta[0] != ':' {
