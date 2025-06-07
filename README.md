@@ -50,7 +50,7 @@ Dentro dessa pasta, existe uma sub-pasta para cada aspecto da sintaxe de GoLang 
 
 ## Programa Hello API
 
-Hello API é uma versão REstFul API do programa para imprimir uma mensagem de "Hello World !" e está
+Hello API é uma versão RESTful API do programa para imprimir uma mensagem de "Hello World !" e está
 disponível na pasta [helloAPI](https://github.com/aldebap/Masterclass_Golang/tree/main/helloAPI).
 Para executar esse programa diretamente a partir da linha de comando, utilizar o seguinte:
 
